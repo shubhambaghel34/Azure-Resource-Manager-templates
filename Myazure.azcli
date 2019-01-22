@@ -1,0 +1,3 @@
+az group create --name myResourceGroup --location westus
+az appservice plan create --name myPlan --sku F1
+az webapp create --name myExpressApp-chrisdias --plan myPlan --runtime "node|6.9
